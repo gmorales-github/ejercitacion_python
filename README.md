@@ -28,3 +28,12 @@ Ejercitación durante la cursada
 9) Escribir un programa que pregunte al usuario una cantidad a invertir, el interés 
    anual y el número de años, y muestre por pantalla el capital obtenido en la 
    inversión.
+
+10) Se pide obtener la calificación final de un examen, teniendo un 
+    nro de respuesta correctas que suman 4 puntos c/u, 
+    un nro de respuestas incorrectas que restan 1 punto por c/u y 
+    un nro de respuestas en blanco.
+
+11) calcular el peso del paquete que debemos enviar de acuerdo a la cantidad de muñecas y payasos
+
+12) Tipo de triángulo según 3 valores ingresados
