@@ -9,8 +9,8 @@ valido = True
 
 # Declaro la función calculoHoras()
 def calculoHoras():
-    valor = horas_trabajadas * costo_hora
-    return f" El pago corresponte es: {valor} pesos"
+    #valor = horas_trabajadas * costo_hora
+    return f" El pago corresponte es: {horas_trabajadas * costo_hora} pesos"
 
 
 while valido == True:
