@@ -37,10 +37,11 @@ while valido == True:
         for nota in notas:
             if nota < 0:
                 notas = []
-                raise ValueError('Debe ingresar valores de notas mayores a 0')
+                raise ValueError()
         
-        print("El promedio de las notas es: ", sumarNotas())
         valido = False
+        print("El promedio de las notas es: ", sumarNotas())
+        
 
     except ValueError:
-        print("Por favor ingrese datos númericos.")
+        print("Por favor ingrese datos númericos válidos")      
