@@ -37,3 +37,8 @@ Ejercitación durante la cursada
 11) calcular el peso del paquete que debemos enviar de acuerdo a la cantidad de muñecas y payasos
 
 12) Tipo de triángulo según 3 valores ingresados
+
+14) Recuperatorio.
+    Escribir un programa que permita crear una lista de palabras (que puede ser vacía).
+    Para ello, el programa tiene que pedir un número y luego solicitar ese número de palabras
+    para crear la lista. Por último el programa tiene que mostrar en pantalla la lista creada.   
