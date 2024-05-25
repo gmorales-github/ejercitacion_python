@@ -34,14 +34,16 @@ while valido == True:
                 palabra = str(input("Ingrese la palabra: "))
                 
                 # Valido si es un palabra y el tamañio máximo de 23 carácteres.Cargo la lista de palabras
-                if palabra.isalpha() and len(palabra) <= 23 or palabra == "":
+                # También se verifica si se ingresan espacio en blanco
+                if palabra.isalpha() and len(palabra) <= 23 or palabra == "" or palabra == " ":
                     # Invoco al método cargarPalabra()
                     p.cargarPalabra(palabra, palabras)
                     cont = cont + 1
                 
                 # En caso de ingresar una palabra invalida vuelvo a iniciar el loop de carga
                 else:
-                    print("Debe ingresar palabras con letras del abcdario y que no superen más de 23 letras.")
+                    print("Debe ingresar palabras con letras del abcdario que no superen más de 23 letras.")
+                    print("Por otro lado no se puede ingresar espacios en blanco.")
                     print("Recordar: Según la RAE la palabra más extensa del idioma español es: electroencefalografista.")
                     continue              
              
